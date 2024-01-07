@@ -1,0 +1,127 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,300;1,700&family=Poppins:wght@200;500&family=Raleway&family=Rubik&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Inter:wght@300;400;600;800&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,300;1,700&family=Poppins:wght@200;500&family=Raleway&family=Rubik&display=swap');
+
+
+body{
+    font-family: 'Baloo Thambi 2', system-ui;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+    font-family: 'Baloo Thambi 2', system-ui;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.banner{
+    background-image: url(../img/Banner\ Image.png);
+    width:990px;
+	height:450px;
+    background-size: cover;
+}
+.title{
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: 300;
+}
+.banner-title{
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-left: 50px;
+}
+
+.discount{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.discount-info{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.discount-title{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size:36px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.new-img{
+   margin-left: 60px;
+}
+
+.content{
+    background-image: url(../img/Vectorrr.png);
+    height:600px;
+    display: flex;
+    padding-left: 70px;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.content-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 88px;
+    margin-top:100px;
+    margin-bottom: 15px;
+}
+.content-p{
+    color: #FFF;
+    font-family: Inter;
+    font-size:18px;
+    font-weight: 300;
+}
+.btn{
+  border-radius: 6px;
+  background: #d75f0b;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 35px;
+}
+.btn:hover{
+    color: black;
+}
+.pic{
+    height: 500px;
+    width: 300px;
+    margin-top: 60px;
+}
+
+
+#place{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.place-info{
+    margin-top: 50px;
+}
