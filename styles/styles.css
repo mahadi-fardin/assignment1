@@ -1,5 +1,8 @@
 
-
+*{
+    margin:0px;
+    padding: 0px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,300;1,700&family=Poppins:wght@200;500&family=Raleway&family=Rubik&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Inter:wght@300;400;600;800&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,300;1,700&family=Poppins:wght@200;500&family=Raleway&family=Rubik&display=swap');
@@ -28,8 +31,14 @@ body{
     width:990px;
 	height:450px;
     background-size: cover;
+   
 }
 .title{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     color: #fff;
     text-align: center;
     font-family: Merriweather;
@@ -40,10 +49,9 @@ body{
     color: #fff;
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 700;
-    line-height: 80px;
-    margin-left: 50px;
+
 }
 
 .discount{
@@ -52,6 +60,7 @@ body{
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
+    margin-top: 130px;
     margin-bottom: 25px;
 }
 
@@ -98,15 +107,17 @@ body{
     font-family: Inter;
     font-size:18px;
     font-weight: 300;
+    margin-bottom: 30px;
 }
 .btn{
-  border-radius: 6px;
-  background: #d75f0b;
-  border: 0;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 16px 35px;
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 35px;
+    margin-top: 20px;
 }
 .btn:hover{
     color: black;
@@ -119,9 +130,144 @@ body{
 
 
 #place{
+    padding: 120px;
+    margin: 130px 0px ;
     background-color: antiquewhite;
     text-align: center;
+
+}
+.place-style{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+
 }
 .place-info{
-    margin-top: 50px;
+color: #070211;
+font-family: Inter;
+font-size: 23px;
+font-weight: 600;
+}
+
+.gallery-info{
+    margin: 0px 15px;
+
+}
+
+.gallery{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.gallery-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.gallery-desciption{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.box{
+    margin-bottom: 40px;
+}
+.box-img{
+    width: 300px;
+    height: 320px;
+  
+    margin: 10px;
+   
+    
+}
+
+.news-title{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 20px 0px;
+}
+.img-gmail{
+    width:120px;
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.gmail-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.gmail-p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 100px;
+}
+.email{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}  
+.email input{
+    font-size: 14px;
+    padding: 10px 70px;
+    border-radius: 17px;
+    border: none;
+}
+.Subscribe{
+    display: inline-block;
+    margin-left: -5%;
+    border: none;
+}
+.Subscribe h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+.footer{
+    background: #070211;
+    width: 100%;
+    height: 300px;
+   
+    
+}
+.footer-info{
+    display: flex;
+}
+.footer-d{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+}
+.footer-number{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+}
+.footer-site{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
 }
